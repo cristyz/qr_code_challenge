@@ -1,3 +1,9 @@
+# To run project
+
+1. Clone the repo
+2. Run `npm install && npm run dev`
+4. Open link in browser
+
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./assets/design/desktop-preview.jpg)
