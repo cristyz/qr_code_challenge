@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <title>Frontend Mentor | QR code component</title>
+</head>
+
+<body>
+  <input type="text" id="qr_code_input" placeholder="Enter your text here" maxlength="200" />
+  <div id="qr_code_container">
+
+    <div id="qr_code_image__container">
+      <canvas></canvas>
+    </div>
+
+    <div class="qr_code__texts">
+      <h1 class="qr_code__title">Welcome to my QR code challenge</h1>
+      <p class="qr_code__description">
+        Scan the Qr code to
+        <span>
+          visit my linkedin profile and know more about me.
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <button id="download_qr_code">Download QrCode</button>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+
+    Coded by
+    <a href="https://www.linkedin.com/in/cristóvão-s-987536208">Cristóvão</a>.
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
